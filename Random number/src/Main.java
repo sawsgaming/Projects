@@ -12,7 +12,7 @@ public class Main {
 
         while(playAgain == 1) {
 
-            int randomint = rand.nextInt(101);
+            int randomint = rand.nextInt(100)+1;
 
             System.out.println("Welcome to the Number Guessing Game!\n" +
                     "I'm thinking of a number between 1 and 100.");
